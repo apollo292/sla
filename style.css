@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    height: 400px;
+    width: 350px;
+}
+
+#caixa_dono{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#caixa_raca{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#caixa_genero{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#caixa_peso{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#caixa_idade{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#caixa_pet{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#caixa_dono{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    width: 90%;
+    height: 40px;
+}
+
+#botao{
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+select{
+    border-radius: 10px;
+}
