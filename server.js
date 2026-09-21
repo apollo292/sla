@@ -18,7 +18,6 @@ app.post('/cadastro', async (req, res) => {
         const sql = `
             INSERT INTO pets
             (tutor, pet, raca, genero, peso, idade)
-            VALUES (?, ?, ?, ?, ?, ?)
         `;
 
         await db.execute(sql, [
