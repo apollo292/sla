@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#btn-submit {
+border-radius: 10px;
+background-color: white;
+cursor: pointer;
+width: 100px;
+padding: 8px;
+}
